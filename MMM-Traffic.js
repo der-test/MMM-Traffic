@@ -105,7 +105,7 @@ Module.register('MMM-Traffic', {
             var routeName = document.createElement('div');
             routeName.className = 'dimmed small';
             if (this.summary.length > 0 && this.config.show_summary){
-              routeName.innerHTML = this.config.route_name + ' this.translate("via") ' + this.summary; //todo translatable?
+              routeName.innerHTML = this.config.route_name + ' via ' + this.summary; //todo translatable?
             } else {
               routeName.innerHTML = this.config.route_name;
             }
