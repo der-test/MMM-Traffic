@@ -27,7 +27,15 @@ Module.register('MMM-Traffic', {
         language: config.language,
         show_summary: true
     },
-
+// Define required translations.
+	getTranslations: function() {
+		return {
+			en: "translations/en.json",
+			de: "translations/de.json",
+			fr: "translations/fr.json"
+			};
+	},
+	
     start: function() {
         Log.info('Starting module: ' + this.name);
         if (this.data.classes === 'MMM-Traffic') {
