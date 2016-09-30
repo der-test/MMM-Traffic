@@ -30,9 +30,9 @@ Module.register('MMM-Traffic', {
 // Define required translations.
 	getTranslations: function() {
 		return {
-			en: "translations/en.json",
-			de: "translations/de.json",
-			fr: "translations/fr.json"
+			en: 'translations/en.json',
+			de: 'translations/de.json',
+			fr: 'translations/fr.json'
 			};
 	},
 	
